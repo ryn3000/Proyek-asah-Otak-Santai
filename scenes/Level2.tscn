@@ -1,0 +1,184 @@
+[gd_scene load_steps=11 format=3 uid="uid://byv1hq5bw7fdl"]
+
+[ext_resource type="Script" path="res://scenes/Level.gd" id="1_ytydk"]
+[ext_resource type="FontFile" uid="uid://b1ca5p63baehr" path="res://fonts/Beiruti-VariableFont_wght.ttf" id="2_08kl7"]
+[ext_resource type="Texture2D" uid="uid://hpycduob3hhb" path="res://asset/buah.png" id="3_atbr7"]
+[ext_resource type="Texture2D" uid="uid://ceqlpj5vyq0jc" path="res://asset/buah2.png" id="4_gkwlq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_rt45g"]
+font_size = 45
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k08dn"]
+bg_color = Color(0.203922, 0.596078, 0.858824, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ibi2i"]
+bg_color = Color(0.160784, 0.501961, 0.72549, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jhfmt"]
+bg_color = Color(0.109804, 0.431373, 0.643137, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6mqok"]
+bg_color = Color(0.109804, 0.431373, 0.643137, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_h5ch3"]
+font = ExtResource("2_08kl7")
+font_size = 35
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ytydk")
+
+[node name="QuestionLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.159806
+anchor_top = 0.130469
+anchor_right = 0.840194
+anchor_bottom = 0.234375
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_08kl7")
+label_settings = SubResource("LabelSettings_rt45g")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Answer1" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.459766
+anchor_right = 0.740056
+anchor_bottom = 0.540234
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("2_08kl7")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_k08dn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ibi2i")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jhfmt")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_6mqok")
+metadata/_edit_use_anchors_ = true
+
+[node name="Answer2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.556641
+anchor_right = 0.740056
+anchor_bottom = 0.637109
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("2_08kl7")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_k08dn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ibi2i")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jhfmt")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_6mqok")
+metadata/_edit_use_anchors_ = true
+
+[node name="Answer3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.652735
+anchor_right = 0.740056
+anchor_bottom = 0.733203
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("2_08kl7")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_k08dn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ibi2i")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jhfmt")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_6mqok")
+metadata/_edit_use_anchors_ = true
+
+[node name="Answer4" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.74961
+anchor_right = 0.740056
+anchor_bottom = 0.830078
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("2_08kl7")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_k08dn")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ibi2i")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_jhfmt")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_6mqok")
+metadata/_edit_use_anchors_ = true
+
+[node name="LabelScore" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0347222
+anchor_top = 0.0859375
+anchor_right = 0.143056
+anchor_bottom = 0.120312
+text = "Poin: "
+label_settings = SubResource("LabelSettings_h5ch3")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Buah" type="Sprite2D" parent="."]
+position = Vector2(360, 1030)
+scale = Vector2(1.436, 1)
+texture = ExtResource("3_atbr7")
+
+[node name="Buah2" type="Sprite2D" parent="."]
+position = Vector2(360, 103)
+scale = Vector2(1.403, 1.232)
+texture = ExtResource("4_gkwlq")

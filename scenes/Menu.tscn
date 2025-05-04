@@ -1,0 +1,572 @@
+[gd_scene load_steps=29 format=3 uid="uid://bkl6jwaj55w5t"]
+
+[ext_resource type="Script" path="res://scenes/Menu.gd" id="1_k78qs"]
+[ext_resource type="FontFile" uid="uid://b1ca5p63baehr" path="res://fonts/Beiruti-VariableFont_wght.ttf" id="3_v7oym"]
+[ext_resource type="Texture2D" uid="uid://drwb811b1rks1" path="res://asset/anak2.png" id="4_jnwh0"]
+[ext_resource type="Texture2D" uid="uid://bwb45cpsm3ogk" path="res://asset/pengaturan.png" id="5_gkqig"]
+[ext_resource type="Texture2D" uid="uid://bi6mmpmt8k5ts" path="res://asset/otak.png" id="5_xgaw1"]
+[ext_resource type="Texture2D" uid="uid://bk7eaixajdmhg" path="res://asset/pengaturan3.png" id="6_fq1up"]
+[ext_resource type="Texture2D" uid="uid://23gn4opwyacq" path="res://asset/pengaturan2.png" id="7_f0mx0"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_v83c8"]
+font_size = 40
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q4l8x"]
+bg_color = Color(0.203922, 0.596078, 0.858824, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gnki2"]
+bg_color = Color(0.160784, 0.501961, 0.72549, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4yw83"]
+bg_color = Color(0.109804, 0.431373, 0.643137, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6a3sr"]
+bg_color = Color(0.203922, 0.596078, 0.858824, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ibr74"]
+bg_color = Color(0.160784, 0.501961, 0.72549, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3ewbp"]
+bg_color = Color(0.109804, 0.431373, 0.643137, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.203922, 0.286275, 0.368627, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bag81"]
+bg_color = Color(0.333333, 0.0705882, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.00184107, 0.00184107, 0.00184107, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_t6gfe"]
+font = ExtResource("3_v7oym")
+font_size = 35
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g0nk4"]
+bg_color = Color(0.203922, 0.596078, 0.858824, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_unaos"]
+font = ExtResource("3_v7oym")
+font_size = 60
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0fntl"]
+bg_color = Color(0.941176, 0.956863, 0.972549, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.639216, 0.701961, 0.760784, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="FontFile" id="FontFile_tj5f4"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_nskjy"]
+font = SubResource("FontFile_tj5f4")
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0lr4c"]
+bg_color = Color(0.90779, 0.31448, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vsl7r"]
+bg_color = Color(0.713192, 0.239783, 4.81307e-07, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6m3yp"]
+bg_color = Color(0.512661, 0.162833, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_21t2p"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="LabelSettings" id="LabelSettings_1bpqb"]
+font_size = 50
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_r7leo"]
+font_size = 35
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_rh1qg"]
+font_size = 35
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_k78qs")
+metadata/_edit_use_anchors_ = true
+
+[node name="UnlockLabel" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.165278
+anchor_top = 0.146094
+anchor_right = 0.830556
+anchor_bottom = 0.25
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("3_v7oym")
+text = "Kumpulkan 25 poin untuk
+ membuka soal Buah-Buahan!"
+label_settings = SubResource("LabelSettings_v83c8")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="UnlockLabel3" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.225
+anchor_top = 0.146094
+anchor_right = 0.780556
+anchor_bottom = 0.279687
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("3_v7oym")
+text = "\"Kumpulkan 50 poin untuk membuka soal Benda di Rumah!\""
+label_settings = SubResource("LabelSettings_v83c8")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ButtonLevel1" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.459766
+anchor_right = 0.740056
+anchor_bottom = 0.540234
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("3_v7oym")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_q4l8x")
+theme_override_styles/hover = SubResource("StyleBoxFlat_gnki2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4yw83")
+text = "Binatang"
+metadata/_edit_use_anchors_ = true
+
+[node name="ButtonLevel2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.562891
+anchor_right = 0.740056
+anchor_bottom = 0.643359
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("3_v7oym")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_6a3sr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ibr74")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_3ewbp")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_bag81")
+text = "Buah - Buahan"
+metadata/_edit_use_anchors_ = true
+
+[node name="ScoreLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0347222
+anchor_top = 0.0859375
+anchor_right = 0.143056
+anchor_bottom = 0.120312
+text = "Poin: "
+label_settings = SubResource("LabelSettings_t6gfe")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.0679687
+theme_override_styles/panel = SubResource("StyleBoxFlat_g0nk4")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.206944
+anchor_top = 0.0862069
+anchor_right = 0.793056
+anchor_bottom = 0.913793
+offset_top = 3.5
+offset_bottom = -3.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Asah Otak Santai
+"
+label_settings = SubResource("LabelSettings_unaos")
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="ButtonLevel3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.259944
+anchor_top = 0.665235
+anchor_right = 0.740056
+anchor_bottom = 0.745703
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_fonts/font = ExtResource("3_v7oym")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_6a3sr")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ibr74")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_3ewbp")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_bag81")
+text = "Benda\" Dirumah"
+metadata/_edit_use_anchors_ = true
+
+[node name="Anak2" type="Sprite2D" parent="."]
+position = Vector2(92, 485)
+scale = Vector2(0.598, 0.526)
+texture = ExtResource("4_jnwh0")
+
+[node name="Otak" type="Sprite2D" parent="."]
+position = Vector2(575, 1096)
+scale = Vector2(0.754, 0.758)
+texture = ExtResource("5_xgaw1")
+
+[node name="PetunjukPanel" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(400, 250)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2125
+anchor_top = 0.090625
+anchor_right = 0.784722
+anchor_bottom = 0.285937
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0fntl")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="PetunjukPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.022
+anchor_top = 0.076
+anchor_right = 0.965
+anchor_bottom = 0.956
+offset_left = 0.199999
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "📘 Cara Bermain:
+- Pilih level yang tersedia.
+- Jawab 5 pertanyaan dengan benar.
+- Jawaban benar memberi 5 poin.
+- Gunakan poin untuk membuka level selanjutnya.
+"
+label_settings = SubResource("LabelSettings_nskjy")
+autowrap_mode = 3
+
+[node name="CloseButton" type="Button" parent="PetunjukPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.771583
+anchor_top = 0.796
+anchor_right = 0.970874
+anchor_bottom = 0.98
+offset_left = 0.108002
+offset_bottom = -1.52588e-05
+grow_horizontal = 0
+grow_vertical = 0
+focus_mode = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_0lr4c")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vsl7r")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6m3yp")
+text = "Tutup
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="PetunjukButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0291667
+anchor_top = 0.121875
+anchor_right = 0.169444
+anchor_bottom = 0.170312
+focus_mode = 0
+theme_override_fonts/font = ExtResource("3_v7oym")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_0lr4c")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vsl7r")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6m3yp")
+text = "Petunjuk"
+metadata/_edit_use_anchors_ = true
+
+[node name="SettingsPanel" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0638889
+anchor_top = 0.271094
+anchor_right = 0.9375
+anchor_bottom = 0.53125
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_21t2p")
+metadata/_edit_use_anchors_ = true
+
+[node name="TitleLabel" type="Label" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.212242
+anchor_top = 0.0150862
+anchor_right = 0.787758
+anchor_bottom = 0.0959052
+grow_horizontal = 2
+text = "PENGATURAN"
+label_settings = SubResource("LabelSettings_1bpqb")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="BackButton" type="Button" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.868839
+anchor_top = 0.0107759
+anchor_right = 0.975358
+anchor_bottom = 0.09375
+grow_horizontal = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0.592448, 2.20198e-06, 4.33177e-07, 1)
+theme_override_colors/font_hover_color = Color(0.325029, 0, 0.0340852, 1)
+theme_override_constants/outline_size = 15
+theme_override_font_sizes/font_size = 50
+text = "X"
+flat = true
+icon_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="MusicLabel" type="Label" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.253577
+anchor_top = 0.222863
+anchor_right = 0.746423
+anchor_bottom = 0.37001
+grow_horizontal = 2
+text = "Volume Musik"
+label_settings = SubResource("LabelSettings_r7leo")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="MusicSlider" type="HSlider" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.279809
+anchor_top = 0.384232
+anchor_right = 0.721781
+anchor_bottom = 0.43228
+grow_horizontal = 2
+max_value = 1.0
+step = 0.01
+metadata/_edit_use_anchors_ = true
+
+[node name="SFXLabel" type="Label" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.343402
+anchor_top = 0.461747
+anchor_right = 0.656598
+anchor_bottom = 0.608895
+grow_horizontal = 2
+text = "Volume SFX"
+label_settings = SubResource("LabelSettings_rh1qg")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="SFXSlider" type="HSlider" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.279809
+anchor_top = 0.628663
+anchor_right = 0.720191
+anchor_bottom = 0.676711
+offset_left = 1.52588e-05
+grow_horizontal = 2
+max_value = 1.0
+step = 0.01
+metadata/_edit_use_anchors_ = true
+
+[node name="ExitButton" type="Button" parent="SettingsPanel"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.31876
+anchor_top = 0.748981
+anchor_right = 0.68124
+anchor_bottom = 0.953185
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_v7oym")
+theme_override_font_sizes/font_size = 50
+text = "Keluar Game"
+flat = true
+metadata/_edit_use_anchors_ = true
+
+[node name="PengaturanButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.886111
+anchor_top = 0.015625
+anchor_right = 0.955556
+anchor_bottom = 0.0546875
+offset_right = 450.0
+offset_bottom = 450.0
+grow_horizontal = 0
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("5_gkqig")
+texture_pressed = ExtResource("6_fq1up")
+texture_hover = ExtResource("7_f0mx0")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="ButtonLevel1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="ButtonLevel2" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="ButtonLevel3" to="." method="_on_level_3_pressed"]
+[connection signal="pressed" from="PetunjukPanel/CloseButton" to="." method="_on_close_button_pressed"]
+[connection signal="pressed" from="PetunjukButton" to="." method="_on_petunjuk_button_pressed"]
+[connection signal="pressed" from="SettingsPanel/BackButton" to="." method="_on_BackButton_pressed"]
+[connection signal="value_changed" from="SettingsPanel/MusicSlider" to="." method="_on_MusicSlider_value_changed"]
+[connection signal="drag_ended" from="SettingsPanel/SFXSlider" to="." method=" _on_sfx_slider_drag_ended"]
+[connection signal="value_changed" from="SettingsPanel/SFXSlider" to="." method="_on_SFXSlider_value_changed"]
+[connection signal="pressed" from="SettingsPanel/ExitButton" to="." method="_on_ExitButton_pressed"]
+[connection signal="pressed" from="PengaturanButton" to="." method="_on_PengaturanButton_pressed"]
